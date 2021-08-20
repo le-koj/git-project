@@ -8,3 +8,5 @@ git restore --staged <file>
 git checkout -- <file>
 git reset HEAD <file>
 git reset HEAD~
+
+git checkout -b sample_branch
