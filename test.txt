@@ -1,0 +1,6 @@
+git status
+git log
+git add
+git push <remote> <branch>
+git commit -m <message> <filename>
+git commit -m <message>
