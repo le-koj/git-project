@@ -4,3 +4,7 @@ git add
 git push <remote> <branch>
 git commit -m <message> <filename>
 git commit -m <message>
+git restore --staged <file>
+git checkout -- <file>
+git reset HEAD <file>
+git reset HEAD~
