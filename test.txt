@@ -8,3 +8,16 @@ git restore --staged <file>
 git checkout -- <file>
 git reset HEAD <file>
 git reset HEAD~
+
+git checkout -b sample_branch
+
+# merge branches
+git checkout main
+git merge sample_branch
+git push origin main
+
+# delete local copy of branch
+git branch
+git checkout master
+git branch -D sample_branch
+git push 
