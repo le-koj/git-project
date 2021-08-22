@@ -1,0 +1,16 @@
+cd /boot
+shutdown -h now
+cat /etc/ubuntu-release
+cat /etc/passwd .
+reboot
+ip addr ls
+du -h --max-depth=1
+whoami
+logout
+cal
+ls -alth
+ls -d
+ls -l
+
+# file globbing
+* ? [] !
